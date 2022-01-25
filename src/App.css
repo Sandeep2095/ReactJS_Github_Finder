@@ -188,6 +188,10 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
+  background-color: rgb(215, 243, 234);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 20px;
 }
 
 .grid-4 {
