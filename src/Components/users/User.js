@@ -44,7 +44,7 @@ const User = ({ match }) => {
       ) : (
         <i className='fas fa-times-circle text-danger' />
       )}
-      <div className='card grid-2'>
+      <div className='card grid-2' style={DivStyle}>
         <div className='all-center'>
           <img
             src={avatar_url}
@@ -92,7 +92,7 @@ const User = ({ match }) => {
           </ul>
         </div>
       </div>
-      <div className='card text-center'>
+      <div className='card text-center'style={DivStyle}>
         <div className='badge badge-primary'>Followers: {followers}</div>
         <div className='badge badge-success'>Following: {following}</div>
         <div className='badge badge-light'>Public Repoistry: {public_repos}</div>
@@ -102,5 +102,11 @@ const User = ({ match }) => {
     </Fragment>
   );
 };
-
+const DivStyle = {
+  borderStyle: 'solid',
+  borderWidth: '2px',
+  borderColor: '#404E4D',
+  borderRadius: '20px',
+  backgroundColor: '#eee'
+};
 export default User;

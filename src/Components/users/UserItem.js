@@ -27,7 +27,7 @@ const DivStyle = {
   borderWidth: '2px',
   borderColor: '#404E4D',
   borderRadius: '20px',
-  backgroundColor: 'gray'
+  backgroundColor: '#eee'
 };
 UserItem.propTypes = {
   users: PropTypes.object.isRequired,

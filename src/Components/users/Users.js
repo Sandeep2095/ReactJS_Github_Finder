@@ -25,13 +25,11 @@ const userStyle = {
   display: 'grid',
   gridTemplateColumns: 'repeat(3, 1fr)',
   gridGap: '1rem',
-  
   borderRadius: '20px',
   margin: '5px',
-  paddingLeft: '3rem', 
+  paddingLeft: '3rem',
   paddingRight: '3rem',
-  backgroundColor: 'coral',
-  
+  backgroundColor: '#38a1f3',
 };
 
 export default Users;
